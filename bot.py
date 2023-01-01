@@ -9,6 +9,13 @@ import os
 from config import Config
 from pyrogram import Client
 from plugins.database import db 
+from
+from os import environ
+
+from aiohttp import web as webserver
+PORT_CODE = environ.get("PORT", "8080")
+
+
 
 class Bot(Client):
    
@@ -29,6 +36,14 @@ class Bot(Client):
       banned_users = await db.get_banned_users()
       Config.BANNED_USERS = banned_users
       logging.info(f"{self.me.first_name} is Successfully started")
+      
+      client = webserver.AppRunner(await bot_run())
+      await client.setup()
+      await client.setup()
+
+bind_address = "0.0.0.0"
+
+await webserver.TCPSite(client, bind_address, PORT_CODE).start()
    
    async def stop(self):
       await super().stop()
