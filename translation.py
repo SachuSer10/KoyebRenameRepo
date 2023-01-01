@@ -43,8 +43,8 @@ class Translation(object):
 ╔════❰ RENAME BOT ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
 ║┣⪼📃ʙᴏᴛ : [{}](https://t.me/{})
-║┣⪼👦Deployer : [GreyMatter's Owner](https://t.me/GreyMatter_Owner)
-║┣⪼📡ʜᴏsᴛᴇᴅ ᴏɴ : Koyeb
+║┣⪼👦Deployer : [🇮🇳 𝐌𝐢𝐜𝐡𝐚𝐞𝐥 𝐀𝐧𝐣𝐨𝐨𝐭𝐭𝐢 𝐓𝐆](https://t.me/michaelanjoottitg)
+║┣⪼📡ʜᴏsᴛᴇᴅ ᴏɴ : VPS
 ║┣⪼🗣️ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ3
 ║┣⪼📚ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ ᴀsʏɴᴄɪᴏ {} 
 ║┣⪼🗒️ᴠᴇʀsɪᴏɴ : {}
